@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+</head>
+<body>
+    <form action="orderform.html">
+        <fieldset style="width:fit-content">
+            <h1>ORDER FORM</h1>
+            <p>What would you like to buy</p>
+            <select name="menu" value="Vui lòng chọn món">
+                <option value="Default">Vui lòng chọn món</option>
+                <option value="CFĐ">Cà Phê Đen</option>
+                <option value="CFS">Cà Phê Sữa</option>
+                <option value="Ame">Americano</option>
+            </select>
+            <p>How many would you like to order</p>
+            <input type="radio" name="value" checked>1 - $10<br>
+            <input type="radio" name="value">2 - $20<br>
+            <input type="radio" name="value">3 - $25<br>
+            <br>
+            <span>Name</span><span style="color:red">   *</span>
+            <br><br>
+            <input type="text" style="color:rgb(194, 193, 193)" name="firstname" value="FirstName">
+            <input type="text" style="color:rgb(194, 193, 193)" name="lastname" value="LastName">
+            <br><br>
+            <p>Email</p>
+            <input type="text" name="email" style=width:300px>
+            <br><br>
+            <p>Phone Number</p>
+            <input type="text" name="number1" style="width:60px"><span> - </span><input type="text" name="number1" style="width:60px"><span> - </span><input type="text" name="number1" style="width:60px">
+            <br><br>
+            <input type="submit" name="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
